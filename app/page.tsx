@@ -1,7 +1,13 @@
-export default function Home() {
-  return (
-    <h1 className="text-bold text-teal-800">
-      Bersihkan Nusantara
-    </h1>
-  );
-}
+import SectionHeader from "./section/sectionHeader"
+import SectionList from "./section/sectionList"
+
+
+const Page = () =>(
+  <div>
+    <SectionHeader />
+    <SectionList />
+  </div>
+)
+    
+
+export default Page
